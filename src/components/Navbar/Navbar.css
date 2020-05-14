@@ -1,0 +1,20 @@
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: #ffffff !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
