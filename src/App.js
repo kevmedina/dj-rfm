@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./components/Landing/Landing";
-import About from "./components/About/About"
-import Events from "./components/Events/Events"
+import About from "./components/About/About";
+import Events from "./components/Events/Events";
 // import Loader from "react-loading";
 
-function App() {
+const App = () => {
   // const [state, setstate] = useState(initialState);
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/events" component={Events} />
       </Switch>
+      <Footer />
     </div>
   );
 }

@@ -2,17 +2,17 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <div>
-        <NavLink to="/" class="navbar-brand">
+        <NavLink to="/" className="navbar-brand">
           DJ RFM
         </NavLink>
       </div>
       <div>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -20,17 +20,17 @@ function Navbar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <NavLink to="/" class="nav-item nav-link">
-              Home 
+        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
+            <NavLink to="/" className="nav-item nav-link">
+              Home
             </NavLink>
-            <NavLink to="/about" class="nav-item nav-link">
+            <NavLink to="/about" className="nav-item nav-link">
               About
             </NavLink>
-            <NavLink to="/events" class="nav-item nav-link">
+            <NavLink to="/events" className="nav-item nav-link">
               Events
             </NavLink>
           </div>

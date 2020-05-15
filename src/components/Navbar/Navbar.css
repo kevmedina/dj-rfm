@@ -1,11 +1,13 @@
 .navbar {
-  background-color: black;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  height: 80px;
 }
 
-.navbar a {
-  color: #ffffff !important;
+
+.nav-link  {
+  margin-left: 20px;
 }
 
 .navbar-nav {
@@ -14,7 +16,6 @@
   align-items: center;
 }
 
-.nav-item {
-  margin-left: 20px;
+.navbar-toggler-icon {
+  background-color: #ffffff !important;
 }
-
