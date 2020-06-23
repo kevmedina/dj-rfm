@@ -1,0 +1,26 @@
+.events {
+  width: 100%;
+  height: auto;
+}
+
+.events h1 {
+  margin-bottom: 40px;
+}
+
+.events section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.events img {
+  width: 600px;
+  height: 300px;
+}
+
+.card {
+  width: 600px;
+  height: auto;
+  margin: 20px;
+}

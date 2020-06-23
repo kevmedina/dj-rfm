@@ -1,8 +1,20 @@
 .footer {
   background-color: black;
-  color: #ffffff;
+  color: grey;
   height: 80px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.icons {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons span i {
+  font-size: 1.4em;
 }
